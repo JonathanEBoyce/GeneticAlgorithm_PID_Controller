@@ -8,7 +8,7 @@ Logan Dring (V00984802), Kevin Warkentin (V01004708), Jonathan Boyce (V00967622)
 MATLAB R2024b or later  
 Control Toolbox
 
-## Running the PID Parameter Tuner
+## Running the Genetic Algorithm for PID Parameter Tuning
 The following is the steps to run and test the genetic algorithm:  
 1. Create a MATLAB directory containing the following scripts: *run_pid_ga.m*, *GA_mutation.m*, *crossover.m*, *pid_fitness.m*, and *roulette_wheel.m*.
 2. Set desired transfer function by modifying the values of variable "num" and "den" in run_pid_ga.
