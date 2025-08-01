@@ -14,7 +14,7 @@ globalBestFitness = 5;  %will be updated each generation
 globalBestindividual = [0;0;0]; %will be updated each generation
 
 % Define a sample motor transfer function (adjust as needed)
-% Example: Second-order plant G(s) = 1 / (s^2 + 10s + 20)
+% Example: Second-order plant G(s) = 1 / (s^2 - 2s + 10)
 num = 1;
 den = [1 -2 10];
 plant = tf(num, den);
